@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Zafary</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -15,14 +15,18 @@
         </header>
         <section class="box-container ">
         <div class="cont"> 
-        <input type="text" placeholder="Ingresa tu Correo" name="uname" required>
-        <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
-        <button type="submit">Login</button>
-        <p class="tex"> Yo 💓 Zafary</p>
+            <form class="formulario" name="form">
+                <input type="text" placeholder="Ingresa tu Correo" id="email" name="usuario" required>
+                <input type="password" placeholder="Ingresa tu contraseña"id="password" name="contraseña" required>
+                <button type="submit"  id= "boton" onclick="accion()">Login</button>
+                <p class="tex centrado"> Yo 💓 Zafary</p>
+            </form>
+      
+         
         </div>
         </section>
         </main>
         
-        
+        <script src="index.js"></script>
 </body>
 </html>
