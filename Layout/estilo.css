@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    background-origin: padding-box;
+}
+body{
+    border: 5px solid #ff0000;
+    font-family: 'roboto'sans-serif; 
+}
+
+.container {
+    border: 5px solid#b10fcb;
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 84px;
+    height: 160px;
+    text-decoration: none;
+}
+.container :hover{
+    text-decoration: underline;
+}
+
+main{
+    border: 5px solid #74e6ff;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 670px;
+}
+aside{
+    border: 5px solid #5dff11;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    text-transform: uppercase;
+    padding-top: 46px;
+    text-decoration: none;
+
+}
+aside :hover{
+    text-decoration: underline;
+}
+
+section{
+    border: 5px solid blue;
+
+
+}
+main h2{
+    border: 5px solid orange;
+    height: 130px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+main h2 :hover{
+    text-decoration: underline;
+}
+
+main p {
+    border: 5px solid #ff1ff6;
+    height: 20px;
+    height: 439px;
+    text-decoration: none;
+}
+main p :hover{
+    text-decoration: underline;
+}
