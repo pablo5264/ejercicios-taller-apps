@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
+  
+    <title>Layout</title>
 </head>
-<body >
-    
-    <header class="container">
-       Barra de herramientas
-   </header>
-   <main>
-       <aside>
-           Contenido secundario
-       </aside>
-       <section>
-           <h2>
-               Sub barra de herramientas 
-           </h2>
-           <p>
 
-           </p>
-       </section>
-   </main>
-    
-<style type="text/css">body, a, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur186.cur), progress;}</style> 
+<body>
 
+    <header class="header">
+
+        <H2 class="texto">
+            Zafary
+        </H2>
+    </header>
+
+    <main class="main">
+
+        <aside class="aside">
+            <ul>
+                <li id="home"> <img classe="homeIcon" src="./logo/home.png">
+                    <p class="menu"> Home </p>
+                </li>
+                <li id="wz"> <img src="./logo/whatzapp.png">
+                    <p class="menu"> whatzapp </p>
+                </li>
+
+                <li id="zpty"> <img src="./logo/spotify.png" >
+                    <p class="menu"> Zpotify</p>
+                </li>
+            </ul>
+
+        </aside>
+
+
+        <section>
+            <h2 id="namePag">
+                Home
+            </h2>
+
+            <iframe class=" iframe" id="contDinamic" src="../Home/index.html" frameborder="0">
+
+            </iframe>
+
+        </section>
+
+
+    </main>
+    <script type="text/javascript" src="layout.js"></script>
+   
 </body>
+
 </html>
